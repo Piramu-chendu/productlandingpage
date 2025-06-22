@@ -1,0 +1,176 @@
+/* Responsive Styles */
+
+/* Tablet and smaller desktop (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* Typography adjustments */
+    h1 {
+        font-size: 2.8rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    /* Layout adjustments */
+    .hero {
+        padding: 150px 0 80px;
+    }
+    
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--space-lg);
+    }
+    
+    .hero-cta {
+        justify-content: center;
+    }
+    
+    /* Specifications section */
+    .specs-container {
+        flex-direction: column;
+    }
+    
+    /* Contact section */
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-xl) var(--space-lg);
+    }
+}
+
+/* Tablet (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    .nav-toggle {
+        display: flex;
+        z-index: 101;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: white;
+        flex-direction: column;
+        justify-content: center;
+        padding: var(--space-xxl) var(--space-lg);
+        transition: right var(--transition-normal);
+        box-shadow: var(--shadow-lg);
+        z-index: 100;
+    }
+    
+    .nav-links.active {
+        right: 0;
+    }
+    
+    .nav-links li {
+        margin: var(--space-sm) 0;
+    }
+    
+    .nav-toggle.active span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+    
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .nav-toggle.active span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+    
+    /* Pricing section */
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .pricing-card.featured {
+        transform: none;
+    }
+    
+    .pricing-card.featured:hover {
+        transform: translateY(-8px);
+    }
+    
+    /* Footer */
+    .footer-bottom {
+        flex-direction: column;
+        gap: var(--space-md);
+        text-align: center;
+    }
+}
+
+/* Mobile (max-width: 576px) */
+@media screen and (max-width: 576px) {
+    /* Typography adjustments */
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    /* Section spacing */
+    .hero {
+        padding: 120px 0 60px;
+    }
+    
+    .features, .specs, .testimonials, .pricing, .faq, .contact {
+        padding: var(--space-xl) 0;
+    }
+    
+    /* Button layout */
+    .hero-cta {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+    
+    .btn-primary, .btn-secondary {
+        width: 100%;
+    }
+    
+    /* Features grid */
+    .features-grid {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .footer-logo {
+        justify-content: center;
+        margin-bottom: var(--space-lg);
+    }
+    
+    .footer-logo a {
+        justify-content: center;
+    }
+    
+    /* Back to top button */
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}

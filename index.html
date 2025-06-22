@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProPhone X - Revolutionary Smartphone Experience</title>
+    <meta name="description" content="Experience the future with ProPhone X - featuring cutting-edge technology, premium design, and unmatched performance.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <a href="#home" class="nav-logo">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>ProPhone</span>
+                </a>
+            </div>
+            
+            <ul id="navLinks" class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#specs" class="nav-link">Specs</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button id="navToggle" class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Meet the <span class="gradient-text">ProPhone X</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Revolutionary technology meets stunning design. Experience the future of mobile innovation with our most advanced smartphone yet.
+                </p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn btn-primary">
+                        <i class="fas fa-shopping-cart"></i>
+                        Pre-Order Now
+                    </a>
+                    <button id="watchDemoBtn" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Pre-orders</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.9</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&dpr=1" alt="ProPhone X - Revolutionary Smartphone">
+                <div class="hero-image-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Video Modal -->
+    <div id="demoModal" class="demo-modal">
+        <div class="demo-modal-content">
+            <div class="demo-modal-header">
+                <h3>ProPhone X Demo</h3>
+                <button id="closeDemoModal" class="demo-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="demo-video-container">
+                <iframe 
+                    id="demoVideo"
+                    src=""
+                    title="ProPhone X Demo Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="demo-modal-footer">
+                <p>Experience the revolutionary features of ProPhone X in action</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Innovative Features</h2>
+                <p>Discover what makes ProPhone X the most advanced smartphone on the market.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>5nm processor with AI acceleration delivers unprecedented performance for all your tasks.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Pro Camera System</h3>
+                    <p>108MP triple camera with advanced computational photography and 8K video recording.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>All-Day Battery</h3>
+                    <p>5000mAh battery with 65W fast charging gets you from 0 to 100% in just 30 minutes.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Military Grade Security</h3>
+                    <p>Advanced biometric authentication and end-to-end encryption keep your data safe.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>5G Connectivity</h3>
+                    <p>Ultra-fast 5G speeds with Wi-Fi 6E support for seamless connectivity everywhere.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-screen"></i>
+                    </div>
+                    <h3>Stunning Display</h3>
+                    <p>6.7" AMOLED display with 120Hz refresh rate and HDR10+ for immersive visuals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section id="specs" class="specs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Specifications</h2>
+                <p>Engineered to perfection, down to the smallest detail.</p>
+            </div>
+            <div class="specs-container">
+                <div class="specs-image">
+                    <img src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ProPhone X Technical Specifications">
+                </div>
+                <div class="specs-content">
+                    <div class="spec-item" data-aos="fade-up">
+                        <h3><i class="fas fa-mobile-screen"></i>Display</h3>
+                        <p>6.7" Super AMOLED, 120Hz refresh rate, HDR10+, 1500 nits peak brightness</p>
+                    </div>
+                    <div class="spec-item" data-aos="fade-up" data-aos-delay="100">
+                        <h3><i class="fas fa-microchip"></i>Processor</h3>
+                        <p>X1 5nm octa-core processor, 3.2GHz, AI engine</p>
+                    </div>
+                    <div class="spec-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3><i class="fas fa-memory"></i>Memory</h3>
+                        <p>12GB RAM, 256GB/512GB/1TB storage options</p>
+                    </div>
+                    <div class="spec-item" data-aos="fade-up" data-aos-delay="300">
+                        <h3><i class="fas fa-camera"></i>Camera</h3>
+                        <p>108MP main + 48MP ultrawide + 12MP telephoto with 5x optical zoom, 8K video recording</p>
+                    </div>
+                    <div class="spec-item" data-aos="fade-up" data-aos-delay="400">
+                        <h3><i class="fas fa-battery-full"></i>Battery</h3>
+                        <p>5000mAh, 65W fast charging, 15W wireless charging, reverse charging</p>
+                    </div>
+                    <div class="spec-item" data-aos="fade-up" data-aos-delay="500">
+                        <h3><i class="fas fa-shield-alt"></i>Security</h3>
+                        <p>In-display fingerprint sensor, Face ID, military-grade encryption</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What People Are Saying</h2>
+                <p>Join thousands of satisfied customers who've made the switch to ProPhone X.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The camera quality is absolutely incredible. I'm a professional photographer and this phone has replaced my backup camera for many shoots."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=1" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <span>Professional Photographer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Battery life is phenomenal. I'm a heavy user and it easily lasts me through the entire day with power to spare."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=1" alt="Michael Chen">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <span>Tech Entrepreneur</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The build quality and design are premium. It feels luxurious in hand and the display is absolutely stunning."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=1" alt="Emily Rodriguez">
+                        <div>
+                            <h4>Emily Rodriguez</h4>
+                            <span>Design Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose Your ProPhone X</h2>
+                <p>Select the perfect configuration for your needs with our flexible pricing options.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Essential</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">899</span>
+                        </div>
+                        <p class="price-period">256GB Storage</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i>6.7" AMOLED Display</li>
+                        <li><i class="fas fa-check"></i>108MP Triple Camera</li>
+                        <li><i class="fas fa-check"></i>12GB RAM</li>
+                        <li><i class="fas fa-check"></i>256GB Storage</li>
+                        <li><i class="fas fa-check"></i>5G Connectivity</li>
+                        <li><i class="fas fa-check"></i>1 Year Warranty</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Pre-Order Now</a>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1099</span>
+                        </div>
+                        <p class="price-period">512GB Storage</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i>6.7" AMOLED Display</li>
+                        <li><i class="fas fa-check"></i>108MP Triple Camera</li>
+                        <li><i class="fas fa-check"></i>12GB RAM</li>
+                        <li><i class="fas fa-check"></i>512GB Storage</li>
+                        <li><i class="fas fa-check"></i>5G Connectivity</li>
+                        <li><i class="fas fa-check"></i>Wireless Charging</li>
+                        <li><i class="fas fa-check"></i>Premium Case Included</li>
+                        <li><i class="fas fa-check"></i>2 Year Warranty</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Pre-Order Now</a>
+                </div>
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>Max</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1299</span>
+                        </div>
+                        <p class="price-period">1TB Storage</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i>6.7" AMOLED Display</li>
+                        <li><i class="fas fa-check"></i>108MP Triple Camera</li>
+                        <li><i class="fas fa-check"></i>12GB RAM</li>
+                        <li><i class="fas fa-check"></i>1TB Storage</li>
+                        <li><i class="fas fa-check"></i>5G Connectivity</li>
+                        <li><i class="fas fa-check"></i>Wireless Charging</li>
+                        <li><i class="fas fa-check"></i>Premium Accessories Kit</li>
+                        <li><i class="fas fa-check"></i>3 Year Warranty</li>
+                        <li><i class="fas fa-check"></i>Priority Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Pre-Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to the most common questions about ProPhone X.</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>When will ProPhone X be available?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>ProPhone X will be available for shipping starting March 2024. Pre-orders are now open with a $100 deposit.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>What's included in the box?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Each ProPhone X comes with the device, USB-C cable, 65W fast charger, SIM ejector tool, and quick start guide. Pro and Max models include additional accessories.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Is there a trade-in program?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer competitive trade-in values for your current device. Get an instant quote during checkout and receive up to $800 off your new ProPhone X.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>What warranty is included?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All ProPhone X models come with a comprehensive warranty covering manufacturing defects. Essential: 1 year, Pro: 2 years, Max: 3 years. Extended warranty options are available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h2>Ready to Experience the Future?</h2>
+                    <p>Join the revolution and be among the first to own the ProPhone X. Our team is here to help you choose the perfect model and answer any questions.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p>1-800-PROPHONE</p>
+                                <span>Mon-Fri 9AM-8PM EST</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Support</h4>
+                                <p>support@prophone.com</p>
+                                <span>24/7 Response</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Our Store</h4>
+                                <p>123 Tech Avenue, Silicon Valley</p>
+                                <span>Open Daily 10AM-9PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form">
+                        <h3>Get in Touch</h3>
+                        <p>Ready to pre-order or have questions? We're here to help!</p>
+                        
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="">Select Your Interest</option>
+                                <option value="preorder">Pre-order ProPhone X</option>
+                                <option value="specs">Technical Questions</option>
+                                <option value="pricing">Pricing Information</option>
+                                <option value="support">Customer Support</option>
+                                <option value="business">Business Inquiries</option>
+                            </select>
+                            <label for="interest">How can we help?</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4"></textarea>
+                            <label for="message">Message (Optional)</label>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter for updates and exclusive offers</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <a href="#home">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>ProPhone</span>
+                        </a>
+                    </div>
+                    <p>Revolutionizing mobile technology with cutting-edge innovation and premium design. Experience the future today.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#specs">Specifications</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Repairs</a></li>
+                        <li><a href="#">Trade-in</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 ProPhone. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
